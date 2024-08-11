@@ -1,8 +1,8 @@
 import { useState } from 'react'
 import Header from './components/Header'
 import Banner from './components/Banner'
-import PostCard from './components/PostCard'
 import Section from './components/Section'
+import LatestPost from './components/LatestPost'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -11,7 +11,7 @@ function App() {
     <main>
       <Header />
       <Banner />
-      <PostCard />
+      <LatestPost />
       <Section />
     </main>
   )
